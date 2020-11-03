@@ -134,12 +134,6 @@ inquirer
 
         {
             type: "input",
-            message: "What is the name of your Github repository?",
-            name: "repo",
-        },
-
-        {
-            type: "input",
             message: "What is your email address?",
             name: "email",
         },
