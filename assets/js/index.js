@@ -19,17 +19,14 @@ const readMeTemplate = (response) => {
             "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     }
     const readMe = `
-# Project Title ${license}
+# ${response.title} ${license}
 
-${response.title}
-
----
 
 ## Description 
 
 ${response.description}
 
----
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -38,32 +35,33 @@ ${response.description}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
----
+
+
 ## Installation
 
 ${response.installation}
 
----
+
 ## Usage
 
 ${response.usage}
 
----
+
 ## License
 
 The content of this application is licensed under the ${response.license} license.
 
----
+
 ## Contributing
 
 ${response.contributing}
 
----
+
 ## Tests
 
 ${response.tests}
 
----
+
 ## Questions
 
 If you are interested in my application and want to learn more about it, please connect with me on Github or email me. 

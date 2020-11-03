@@ -58,7 +58,7 @@ The application will be invoked by the command `node index.js`. Once the applica
 
 Meanwhile, `fs.writeFile` generates a new README.md file with a README template that contains all the project information you provided in the questions. 
 
-
+A sample README file titled **README_sample.md** is enclosed with the application for your reference. 
 
 ## License
 
