@@ -1,7 +1,7 @@
 # Readme Guide Generator
 
 ## Project Description 
-The goal of this project is to create a command-line application (a README guide generator) that dynamically generates a professional README.md file from a user's input using the Inquirer package. This allows the project creator to devote more time to working on the project.
+The goal of this project is to create a command-line application (a README guide generator) that dynamically generates a professional README.md file from a user's input using the Inquirer package. This allows the project creator to devote more time to working on the project and delivering a quality README guide efficiently.
 
 ![Screenshot](assets/image/Screenshot.png)
 
