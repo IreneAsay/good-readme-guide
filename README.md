@@ -5,7 +5,6 @@ The goal of this project is to create a command-line application (a README guide
 
 ![Screenshot](assets/image/Screenshot.png)
 
----
 
 ## Table of Content
 
@@ -16,7 +15,6 @@ The goal of this project is to create a command-line application (a README guide
   - [Usage](#usage)
   - [License](#license)
 
----
 
 ## User Story
 
@@ -25,7 +23,7 @@ AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
----
+
 
 ## Criteria
 
@@ -47,13 +45,12 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
----
 
 ## Installation
 
 This application was designed to work with [Node.js](https://nodejs.org/en/). For the application to run properly, please also run `npm install` to install all modules listed as dependencies in `package.json` before invoking the application.
 
----
+
 
 ## Usage
 
@@ -61,7 +58,7 @@ The application will be invoked by the command `node index.js`. Once the applica
 
 Meanwhile, `fs.writeFile` generates a new README.md file with a README template that contains all the project information you provided in the questions. 
 
----
+
 
 ## License
 
