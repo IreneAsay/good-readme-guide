@@ -52,7 +52,7 @@ ${response.usage}
 ---
 ## License
 
-${response.license}
+The content of this application is licensed under the ${response.license} license.
 
 ---
 ## Contributing
@@ -146,7 +146,12 @@ inquirer
         },
     ])
     .then((response) => {
-        fs.writeFile("NewREADME.md", readMeTemplate(response), "utf-8", (err) => {
-            err ? console.log(err) : console.log("success");
-        });
+        fs.writeFile(
+            "NewREADME.md",
+            readMeTemplate(response),
+            "utf-8",
+            (err) => {
+                err ? console.log(err) : console.log("success");
+            }
+        );
     });
