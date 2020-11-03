@@ -32,7 +32,6 @@ ${response.description}
 ---
 ## Table of Contents
 - [Description](#description)
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
