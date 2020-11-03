@@ -3,8 +3,6 @@
 ## Project Description 
 The goal of this project is to create a command-line application (a README guide generator) that dynamically generates a professional README.md file from a user's input using the Inquirer package. This allows the project creator to devote more time to working on the project and delivering a quality README guide efficiently.
 
-![Screenshot](assets/image/Screenshot.png)
-
 
 ## Table of Content
 
@@ -51,14 +49,18 @@ THEN I am taken to the corresponding section of the README
 This application was designed to work with [Node.js](https://nodejs.org/en/). For the application to run properly, please also run `npm install` to install all modules listed as dependencies in `package.json` before invoking the application.
 
 
-
 ## Usage
 
 The application will be invoked by the command `node index.js`. Once the application is running, you will be prompted with a series of questions returned by the `Inquirer.js`. Answer each question accordingly and skip questions that are not applicable to your application. 
 
-Meanwhile, `fs.writeFile` generates a new README.md file with a README template that contains all the project information you provided in the questions. 
+![Screenshot](assets/images/application_prompt.png)
+
+Meanwhile, `fs.writeFile` generates a **NewREADME.md** file with a README template that contains all the project information you provided in the questions. 
+
+![Screenshot](assets/images/Generated_README.png)
 
 A sample README file titled **README_sample.md** is enclosed with the application for your reference. 
+
 
 ## License
 
