@@ -85,25 +85,25 @@ inquirer
         },
         {
             type: "input",
-            message: "Provide a description of your project.",
+            message: "Provide a description of your project:",
             name: "description",
         },
 
         {
             type: "input",
-            message: "provide installation information for your users.",
+            message: "Provide installation information for your users:",
             name: "installation",
         },
 
         {
             type: "input",
-            message: "Provide some examples of the application usage.",
+            message: "Provide some examples of the application usage:",
             name: "usage",
         },
 
         {
             type: "list",
-            message: "Choose an applicable license for your project.",
+            message: "Choose an applicable license for your project:",
             name: "license",
             choices: ["Apache 2.0", "BSD 3", "GNU GPL v3", "MIT"],
         },
@@ -116,13 +116,13 @@ inquirer
 
         {
             type: "input",
-            message: "Provide any tests written for your application, if applicable.",
+            message: "Provide any tests written for your application, if applicable:",
             name: "tests",
         },
 
         {
             type: "input",
-            message: "Provide some examples of the application usage.",
+            message: "Provide some examples of the application usage:",
             name: "usage",
         },
 
