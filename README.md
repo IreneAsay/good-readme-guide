@@ -37,12 +37,19 @@ THEN I am taken to the corresponding section of the README
 ```
 ## Installation
 
-This application was designed to work with Node.js. For the application to run properly, please also make sure to download the 
+This application was designed to work with [Node.js](https://nodejs.org/en/). For the application to run properly, please also run `npm install` to install all modules listed as dependencies in `package.json` before invoking the application.
+
+The application will be invoked by the command `node index.js`. Once the application is running, you will be prompted with a series of questions. Answer each question accordingly and skip questions that are not applicable to your application. 
 
 
-## Credits
+## Usage
 
-Trilogy Education Services, LLC, a 2U, Inc. brand.
+
+
+
+## Contributing
+
+
 
 
 ## License
