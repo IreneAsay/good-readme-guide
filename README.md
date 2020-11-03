@@ -59,7 +59,7 @@ Meanwhile, `fs.writeFile` generates a **NewREADME.md** file with a README templa
 
 ![Screenshot](assets/images/Generated_README.png)
 
-A sample README file titled **README_sample.md** is enclosed with the application for your reference. 
+A sample README file titled **README_sample.md** is enclosed with the application under [assets/js/README_sample.md](assets/js/README_sample.md) for your reference. 
 
 
 ## License
