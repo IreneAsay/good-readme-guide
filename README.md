@@ -1,7 +1,7 @@
 # Readme Guide Generator
 
 ## Project Description 
-The goal of this project is to create a command-line application (a README guide generator) that dynamically generates a professional README.md file from a user's input using the Inquirer package. This allows the project creator to devote more time to working on the project and delivering a quality README guide efficiently.
+The goal of this project is to create a command-line application (a README guide generator) that dynamically generates a professional README.md file from a user's input using the npm Inquirer package. This allows the project creator to devote more time to working on the project and delivering a quality README guide efficiently.
 
 
 ## Table of Content
@@ -51,7 +51,7 @@ This application was designed to work with [Node.js](https://nodejs.org/en/). Fo
 
 ## Usage
 
-The application will be invoked by the command `node index.js`. Once the application is running, you will see a series of questions prompted by the `Inquirer.js`. Answer each question accordingly and skip questions that are not applicable to your application. 
+The application will be invoked by the command `node index.js`. Once the application is running, you will see a series of questions prompted by the `Inquirer.js`. Answer each question accordingly and type NA or skip questions that are not applicable to your application. 
 
 ![Screenshot](assets/images/application_prompt.png)
 
@@ -61,7 +61,7 @@ Meanwhile, `fs.writeFile` generates a **NewREADME.md** file based on the README 
 
 ## Questions
 
-A sample README file titled **README_sample.md** is enclosed with the application under [assets/js/README_sample.md](assets/js/README_sample.md) for your reference. You can also check out the demo video to walk through the entire process with me.
+A sample README file titled **README_sample.md** is enclosed with the application under [assets/js/README_sample.md](assets/js/README_sample.md) for your reference. You can also check out the [demo video](https://drive.google.com/file/d/1kVWFY_yALOuRJsOux_nve6n4Q-I54gSJ/view) to walk through the entire process with me.
 
 More questions? Connect with me and we can chat more!
 
