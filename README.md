@@ -51,15 +51,23 @@ This application was designed to work with [Node.js](https://nodejs.org/en/). Fo
 
 ## Usage
 
-The application will be invoked by the command `node index.js`. Once the application is running, you will be prompted with a series of questions returned by the `Inquirer.js`. Answer each question accordingly and skip questions that are not applicable to your application. 
+The application will be invoked by the command `node index.js`. Once the application is running, you will see a series of questions prompted by the `Inquirer.js`. Answer each question accordingly and skip questions that are not applicable to your application. 
 
 ![Screenshot](assets/images/application_prompt.png)
 
-Meanwhile, `fs.writeFile` generates a **NewREADME.md** file with a README template that contains all the project information you provided in the questions. 
+Meanwhile, `fs.writeFile` generates a **NewREADME.md** file based on the README template from the index.js file. This newly generated README file should contain all the project information you provided in responding to the questions. 
 
 ![Screenshot](assets/images/Generated_README.png)
 
-A sample README file titled **README_sample.md** is enclosed with the application under [assets/js/README_sample.md](assets/js/README_sample.md) for your reference. 
+## Questions
+
+A sample README file titled **README_sample.md** is enclosed with the application under [assets/js/README_sample.md](assets/js/README_sample.md) for your reference. You can also check out the demo video to walk through the entire process with me.
+
+More questions? Connect with me and we can chat more!
+
+Github: <a href="https://github.com/IreneAsay" target="_blank">IreneAsay</a> 
+
+Email Address: irene.hsu.asay@gmail.com
 
 
 ## License
